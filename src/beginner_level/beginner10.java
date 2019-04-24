@@ -1,4 +1,4 @@
-package beginner_level;
+﻿package beginner_level;
 /*
 Create method which gets a number form 1 to 9 (for example 4) and then prints the follow output:
 For number 4:
@@ -32,7 +32,7 @@ public class beginner10 {
             }
             System.out.println();
         }
-        for (int i = rangeOfPyramid-1; i >= 0 ; i--) {
+        for (int i = rangeOfPyramid-2; i >= 0 ; i--) {
             for (int j = 0; j < i + 1; j++) {
                 System.out.print('*');
             }
